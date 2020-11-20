@@ -1,4 +1,295 @@
-div{
+
+    /* background: linear-gradient(to right, #3333cc 0%, #ff507c 100%);
+    background: linear-gradient(to right, #6efaee 0%,  #1cc9e7 100%); */
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.preto{
+    position: relative;
+    width: 100%;
+    margin-bottom: -10%;
+    z-index: 1;
+}
+.preto1{
+    width: 100%;
+    padding-bottom: 56%;
+    background-color: rgba(0, 0, 0, 0.521);
+    position: absolute;
+    z-index: 2000;
+}
+video{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.hom{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    z-index: 200;
+    margin-top: 0%;
+    margin-left: 0%;
+    z-index: 2000;
+}
+.home{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    color: rgb(255, 255, 255);
+    font-size: 67px;
+    font-weight: 100;
+    z-index: 2000;
+}
+.home1{
+    position: absolute;
+    top: 48%;
+    left: 28%;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 700;
+    z-index: 2000;
+}
+.home2{
+    position: absolute;
+    top: 64%;
+    left: 44%;
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
     color: black;
-    font-size: 32px;
+    border-radius: 26px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: 2000;
+}
+.home2:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e7;
+    border-radius: 26px;
+    cursor: pointer;
+}
+nav{
+    z-index: 2000;
+    position: absolute;
+    width: 90%;
+    top: 90%;
+    padding-left: 10%;
+    background: linear-gradient(to right, #3333cc 0%, #ff507c 100%)
+
+}
+.logo1{
+    z-index: 2000;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.bb{
+    position: absolute;
+    top: 41%;
+    width: 70%;
+    left: 30%;
+}
+.b{
+    margin-left: 5%;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.b:hover{
+    color: #1cc9e7;
+}
+.bbb{
+    cursor: pointer;
+    position: absolute;
+    left: 92%;
+    color: white;
+    font-size: 24px;
+ 
+}
+.dupla,.dupla1{
+    display: flex;
+    flex-direction: row;
+}
+.teclado{
+    width: 49%;
+    margin-top: 56%;
+}
+.texto{
+    margin-top: 56%;
+}
+h1{
+    position: absolute;
+    padding-top: 8%;
+    padding-left: 20%;
+    color: #1cc9e7;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+   
+}
+h2{
+    position: absolute;
+    padding-top: 7%;
+    padding-left: 13%;
+    color: #000000;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+}
+h3{
+    position: absolute;
+    padding-top: 13%;
+    padding-left: 4%;
+    color: #696969;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.note{
+    width: 49%;
+    margin-left: 45%;
+}
+.botao{
+    position: absolute;
+    top: 156%;
+    left: 69%;
+    background-color: #1cc9e7;
+    border: #1cc9e7;
+    color: rgb(255, 255, 255);
+    border-radius: 26px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: 2000;
+}
+.botao:hover{
+    color: rgb(255, 255, 255);
+    background-color: #600783;
+    border-radius: 26px;
+    cursor: pointer;
+    
+}
+.botao1{
+    position: absolute;
+    top: 224%;
+    left: 21%;
+    background-color: #600783;
+    border: #1cc9e7;
+    color: rgb(255, 255, 255);
+    border-radius: 26px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: 2000;
+}
+.botao1:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e7;
+    border-radius: 26px;
+    cursor: pointer;
+    
+}
+.blue{
+    background: linear-gradient(to right, #02ddcb 0%,  #06cdf0 100%); 
+    width: 100%;
+    padding-bottom: 25%;
+}
+
+.texto2{
+    color: white;
+    font-size: 65px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 7%;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 8%;
+    margin-right: 8%;
+    position: relative;
+}
+
+.bola{
+    border-radius: 50%;
+    padding: 2%;
+    margin-top: 5%;
+    border: 1px solid white;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    width: 3%;
+}
+
+.bola:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #06cdf0;
+}
+
+.spco1{
+    position: absolute;
+    margin-left: 36.3%;
+    margin-top: -3%;
+    width: 10.4%;
+    border-bottom:1px solid white;
+}
+.spco2{
+    position: absolute;
+    margin-left: 53.1%;
+    margin-top: -3%;
+    width: 10.4%;
+    border-bottom:1px solid white;
+}
+
+.spco3{
+    position: absolute;
+    margin-left: 69.9%;
+    margin-top: -3%;
+    width: 10.4%;
+    border-bottom:1px solid white;
+
+}
+.spco4{
+    position: absolute;
+    margin-left: 19.5%;
+    margin-top: -3%;
+    width: 10.4%;
+    border-bottom:1px solid white;
+}
+.mm{
+    position: absolute;
+    margin-top: 6%;
+    text-align: center;
+    margin-left: 1%;
+}
+.c1{
+    position: absolute;
+    top: 0%;
+    left:0%;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.c2{position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 2%;
+    text-align: center;
+}
+.c3{position: absolute;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 2%;
+    line-height: 15px;
+    text-align: center;
 }
