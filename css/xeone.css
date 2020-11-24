@@ -1,6 +1,6 @@
 
     /* background: linear-gradient(to right, #3333cc 0%, #ff507c 100%);
-    background: linear-gradient(to right, #6efaee 0%,  #1cc9e7 100%); */
+    background: linear-gradient(to right, #28d4b8 21%,  #06cdf0 100%); */
 *{
     font-family: 'Raleway', sans-serif;
 }
@@ -194,7 +194,7 @@ h3{
     
 }
 .blue{
-    background: linear-gradient(to right, #02ddcb 0%,  #06cdf0 100%); 
+    background: linear-gradient(to right, #28d4b8 21%,  #06cdf0 100%); 
     width: 100%;
     padding-bottom: 25%;
 }
@@ -214,11 +214,60 @@ h3{
     margin-right: 8%;
     position: relative;
 }
+.bolao{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: -81%;
+    text-align: center;
+}
+.bolao2{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: -41%;
+    text-align: center;
+}
+.bolao3{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 1%;
+    text-align: center;
+}
+.bolao4{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 43%;
+    text-align: center;
+}
+.bolao5{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 80%;
+    text-align: center;
+}
+.ti1{
+    margin-top: 32%;
+    margin-bottom: 0%;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+
+}
+.te1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+ 
+
+}
 
 .bola{
     border-radius: 50%;
-    padding: 2%;
+    padding: 17%;
     margin-top: 5%;
+    margin-bottom: 0%;
     border: 1px solid white;
     color: white;
     font-size: 35px;
@@ -226,31 +275,35 @@ h3{
     width: 3%;
 }
 
-.bola:hover{
+.bolao:hover .bola,.bolao2:hover .bola ,.bolao3:hover .bola,
+.bolao4:hover .bola,.bolao5:hover .bola{
     cursor: pointer;
     background-color: white;
     color: #06cdf0;
+} 
+.bolao:hover,.bolao2:hover,.bolao3:hover,.bolao4:hover,.bolao5:hover{
+    cursor: pointer;
 }
 
 .spco1{
     position: absolute;
     margin-left: 36.3%;
-    margin-top: -3%;
+    margin-top: 7%;
     width: 10.4%;
     border-bottom:1px solid white;
 }
 .spco2{
     position: absolute;
-    margin-left: 53.1%;
-    margin-top: -3%;
+    margin-left: 54.1%;
+    margin-top: 7%;
     width: 10.4%;
     border-bottom:1px solid white;
 }
 
 .spco3{
     position: absolute;
-    margin-left: 69.9%;
-    margin-top: -3%;
+    margin-left: 71.7%;
+    margin-top: 7%;
     width: 10.4%;
     border-bottom:1px solid white;
 
@@ -258,8 +311,8 @@ h3{
 .spco4{
     position: absolute;
     margin-left: 19.5%;
-    margin-top: -3%;
-    width: 10.4%;
+    margin-top: 7%;
+    width: 9.8%;
     border-bottom:1px solid white;
 }
 .mm{
@@ -292,4 +345,277 @@ h3{
     margin-top: 2%;
     line-height: 15px;
     text-align: center;
+}
+.abc{
+    padding-top: 5%;
+    padding-bottom: 50%;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+}
+.g1{
+    
+    color: #1cc9e7;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+   
+}
+.g2{
+  
+    color: #000000;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+}
+.g3{
+    color: #696969;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 25px;
+}
+.dupla2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.branca{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 39%;
+    padding-left: 19%;
+    padding-right: 21%;
+    margin-left:9%;
+    z-index: 200;
+  
+}
+.branca1{
+    position: absolute;
+    left: 44%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 39%;
+    padding-left: 19%;
+    padding-right: 21%;
+    margin-left:9%;
+   
+}
+.mulher{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    width: 92%;
+   
+    
+}
+.homem{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    width: 92%;
+  
+}
+.nome1{
+    position: absolute;
+    top: 90%;
+    left: 4%;
+    width: 92%;
+    height: 13%;
+    color: white;
+    padding-top:4%;
+    background: linear-gradient(to right, #3333cc 0%, #ff507c 100%);
+}
+.na1{
+    font-size: 32px;
+
+}
+.na2{
+    font-size: 12px;
+}
+.nome2{
+    position: absolute;
+    top: 90%;
+    left: 4%;
+    width: 92%;
+    height: 13%;
+    color: white;
+    padding-top:4%;
+    background: linear-gradient(to right, #28d4b8 21%,  #06cdf0 100%);
+}
+
+.hh3{
+    
+    padding-top: 7%;
+    padding-left: 4%;
+    color: #000000;
+    font-size: 45px;
+    text-align: left;
+    font-weight: 500;
+}
+.hhh3{
+    padding-top: 8%;
+    padding-left: 4%;
+    color: #1cc9e7;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.hhh{
+    
+    padding-top: 13%;
+    padding-left: 4%;
+    color: #696969;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 300;
+    line-height: 25px;
+
+}
+.botao3{
+   
+    background-color: #600783;
+    border: #1cc9e7;
+    color: rgb(255, 255, 255);
+    border-radius: 26px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 25%;
+    margin-left: 4%;
+    z-index: 2000;
+}
+.botao3:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e7;
+    border-radius: 26px;
+    cursor: pointer;
+    
+}
+.tab{
+    position: absolute;
+    top: 70%;
+    width: 40%;
+    margin-left: 56%;
+    margin-top: 195%;
+  
+}
+.trio1,.trio2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.abc1{
+    position: relative;
+    margin-top: 5%;
+    padding-top: 10%;
+    padding-bottom: 7%;
+    background-color: rgb(236, 236, 236);
+}
+.limini{
+    width: 27%;
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: -3%;
+}
+.abc2{
+    margin-top: 5%;
+    padding-top: 10%;
+    padding-bottom: 7%;
+
+}
+.dupla6{
+position: relative;
+display: flex;
+flex-direction: column;
+}
+
+.linha2,.linha3{
+
+    display: flex;
+    flex-direction: column;
+}
+.bolao6{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 10%;
+    text-align: center;
+}
+.bolao7{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 20%;
+    text-align: center;
+}
+.bolao8{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 30%;
+    text-align: center;
+}
+.celular{
+    position: absolute;
+    
+    left: 39%;
+}
+.bolao9{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 40%;
+    text-align: center;
+}
+.bolao10{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 50%;
+    text-align: center;
+}
+.bolao11{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 60%;
+    text-align: center;
+}
+.ti2{
+    margin-top: 32%;
+    margin-bottom: 0%;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.te2{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+    font-weight: 500;
+ 
+
+}
+
+.bola1{
+    border-radius: 50%;
+    padding: 17%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    border: 1px solid white;
+    color: white;
+    background-color:  #1cc9e7;
+    font-size: 35px;
+    font-weight: 600;
+    width: 3%;
+    border: solid 1px #1cc9e7;
+}
+
+.bolao6:hover .bola1,.bolao7:hover .bola1,.bolao8:hover .bola1,
+.bolao9:hover .bola1,.bolao10:hover .bola1,.bolao11:hover .bola1{
+    cursor: pointer;
+    background-color:  #600783;
+    color: #ffffff;
+} 
+.bolao6:hover,.bolao7:hover,.bolao8:hover,.bolao9:hover,.bolao10:hover,.bolao11:hover{
+    cursor: pointer;
+    
 }
