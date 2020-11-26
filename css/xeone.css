@@ -363,7 +363,7 @@ h3{
 .g2{
   
     color: #000000;
-    font-size: 45px;
+    font-size: 57px;
     text-align: center;
     font-weight: 500;
 }
@@ -526,78 +526,80 @@ h3{
 
 }
 .dupla6{
-position: relative;
-display: flex;
-flex-direction: column;
-}
-
-.linha2,.linha3{
-
+    position: relative;
     display: flex;
     flex-direction: column;
 }
-.bolao6{
+
+.linha2,.linha3{
     position: absolute;
-    margin-top: 7%;
-    margin-left: 10%;
-    text-align: center;
 }
-.bolao7{
-    position: absolute;
+.linha2{
+    margin-left: 28%;
     margin-top: 7%;
-    margin-left: 20%;
-    text-align: center;
 }
-.bolao8{
-    position: absolute;
+.linha3{
+    margin-left: 63%;
     margin-top: 7%;
-    margin-left: 30%;
-    text-align: center;
 }
+
 .celular{
     position: absolute;
-    
     left: 39%;
+    margin-top: 4%;
 }
-.bolao9{
-    position: absolute;
-    margin-top: 7%;
-    margin-left: 40%;
-    text-align: center;
-}
-.bolao10{
-    position: absolute;
-    margin-top: 6%;
-    margin-left: 50%;
-    text-align: center;
-}
-.bolao11{
-    position: absolute;
-    margin-top: 6%;
-    margin-left: 60%;
-    text-align: center;
-}
+
 .ti2{
-    margin-top: 32%;
-    margin-bottom: 0%;
+    padding-right: 113%;
+    margin-top: -37%;
+    margin-left: -113%;
     color: rgb(0, 0, 0);
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
+    text-align: right;
+   
 
 }
 .te2{
-    margin-top: 0%;
-    margin-bottom: 0%;
+  
+    padding-right: 113%;
+    margin-left: -114%;
+    margin-bottom: 57%;
     color: rgb(146, 146, 146);
     font-size: 12px;
     font-weight: 500;
+    text-align: right;
+    line-height: 21px;
  
 
 }
+.ti22{
+    padding-left: 1%;
+    margin-left: 61%;
+    margin-right: -108%;
+    margin-top: -37%;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
 
+}
+.te22{
+    padding-left: 1%;
+    margin-left: 61%;
+    margin-right: -108%;
+    margin-bottom: 57%;
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 21px;
+ 
+
+}
 .bola1{
     border-radius: 50%;
-    padding: 17%;
+    padding: 12%;
     margin-top: 5%;
     margin-bottom: 0%;
     border: 1px solid white;
@@ -608,14 +610,409 @@ flex-direction: column;
     width: 3%;
     border: solid 1px #1cc9e7;
 }
-
-.bolao6:hover .bola1,.bolao7:hover .bola1,.bolao8:hover .bola1,
-.bolao9:hover .bola1,.bolao10:hover .bola1,.bolao11:hover .bola1{
+.bola2{
+    border-radius: 50%;
+    padding-bottom: 16%;
+    padding-top: 16%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    border: 1px solid white;
+    color: white;
+    background-color:  #1cc9e700;
+    font-size: 35px;
+    font-weight: 600;
+    width: 3%;
+    border: solid 1px #1cc9e7;
+}
+.bola12{
+    border-radius: 50%;
+    padding-bottom: 11%;
+    padding-top: 11%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 5%;
+    border: 1px solid white;
+    color: white;
+    background-color:  #1cc9e7;
+    font-size: 35px;
+    font-weight: 600;
+    width: 3%;
+    border: solid 1px #1cc9e7;
+}
+.bola21{
+    border-radius: 50%;
+    padding-bottom: 16%;
+    padding-top: 16%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 5%;
+    border: 1px solid white;
+    color: white;
+    background-color:  #1cc9e700;
+    font-size: 35px;
+    font-weight: 600;
+    width: 3%;
+    border: solid 1px #1cc9e7;
+}
+.bola31{
+    border-radius: 50%;
+    padding-bottom: 12%;
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
+    border: 1px solid white;
+    color: white;
+    background-color:  #1cc9e7;
+    font-size: 27px;
+    font-weight: 600;
+    width: 3%;
+    border: solid 1px #1cc9e7;
+}
+.bola32{
+    border-radius: 50%;
+    padding-bottom: 16%;
+    padding-top: 16%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 5%;
+    border: 1px solid white;
+    color: white;
+    background-color:  #1cc9e700;
+    font-size: 35px;
+    font-weight: 600;
+    width: 3%;
+    border: solid 1px #1cc9e7;
+}
+.bolao6:hover .bola12,.bolao7:hover .bola1,.bolao8:hover .bola1,
+.bolao9:hover .bola31,.bolao10:hover .bola1,.bolao11:hover .bola1{
     cursor: pointer;
     background-color:  #600783;
+    border: 1px solid #600783;
+    color: #ffffff;
+} 
+.bolao6:hover .bola21,.bolao7:hover .bola2,.bolao8:hover .bola2,
+.bolao9:hover .bola32,.bolao10:hover .bola2,.bolao11:hover .bola2{
+    cursor: pointer;
+    background-color:  #60078300;
+    border: 1px solid #600783;
     color: #ffffff;
 } 
 .bolao6:hover,.bolao7:hover,.bolao8:hover,.bolao9:hover,.bolao10:hover,.bolao11:hover{
     cursor: pointer;
     
+}
+.gradiente{
+    margin-top: 45%;
+    color: rgb(255, 255, 255);
+    padding-bottom: 8%;
+    background: linear-gradient(to right, #3333cc 0%, #ff507c 100%);
+}
+
+.textos{
+    padding-top: 12%;
+    padding-left: 12%;
+}
+.our,.num,.pp{
+    font-size: 35px;
+    font-weight: 800;
+}
+.num{
+    margin-top: 44%;
+}
+.num1{
+    margin-top: 29%;
+    font-size: 35px;
+    font-weight: 800;
+}
+.pp{
+    margin-bottom: 15%;
+}
+
+.numeral{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-top: -14%;
+    text-align: center;
+}
+.sati{
+    margin-top: 5%
+}
+.we{
+    margin-top: 5%;
+    font-size: 17px;
+    line-height: 27px;    
+}
+.smile,.ling,.desk{
+    margin-left: 4%;
+}
+.agua{
+    background-color: rgb(201, 201, 201);
+    padding-bottom: 7%;
+}
+.agua1{
+    background-image: url("../img/nadar.jpg");
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+}
+
+.g11{
+    
+    padding-top: 10%;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+   
+}
+.g22{
+  
+    color: #ffffff;
+    font-size: 57px;
+    text-align: center;
+    font-weight: 500;
+}
+.g33{
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 25px;
+  
+}
+.branco1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+}
+.branco{
+    background-color: white;
+    margin-right: -11%;
+    margin-left: 13%;
+    padding: 4%;
+    padding-bottom: 8%;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.branco2{
+    background-color: white;
+    margin-right: -11%;
+    margin-left: 13%;
+    padding: 4%;
+    padding-bottom: 8%;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.branco:hover{
+    color:white;
+    background-color: #1cc9e7;
+  
+
+}
+.branco2:hover{
+    color:white;
+    background-color: #600783;
+ 
+
+}
+.branco2:hover .brand {
+    color: rgb(255, 255, 255);
+    border-bottom:1px solid rgb(255, 255, 255);
+
+}
+.branco2:hover .tar {
+    color: rgb(255, 255, 255);
+   
+}
+.branco:hover .brand {
+    color: rgb(255, 255, 255);
+    border-bottom:1px solid rgb(255, 255, 255);
+
+}
+.branco:hover .tar {
+    color: rgb(255, 255, 255);
+   
+}
+.branco:hover .cifrao{
+    color: rgb(255, 255, 255);
+   
+}
+.branco2:hover .cifrao{
+    color: rgb(255, 255, 255);
+   
+}
+.branco2:hover .cifrao2{
+    color: rgb(255, 255, 255);
+   
+}
+
+.branco2:hover .gett2{
+    border: 1px solid rgb(255, 255, 255);
+     
+  }
+.branco:hover .gett{
+    border: 1px solid rgb(255, 255, 255);
+}
+.cifrao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #1cc9e7;
+    font-weight: 700;
+}
+.cifrao2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #600783;
+    font-weight: 700;
+}
+.tar{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 20%;
+    padding-top: 2%;
+    text-align: center;
+    line-height: 25px;
+}
+.tar:hover{
+
+    color:white;
+}
+
+.brand{
+    color: rgb(160, 160, 160);
+    font-size: 14px;
+    text-align: center;
+    border-bottom:1px solid rgb(160, 160, 160);
+    line-height: 50px;
+
+}
+
+
+.gett{
+    margin-top: 40%;
+    background-color: #1cc9e7;
+    border: #1cc9e7;
+    color: rgb(255, 255, 255);
+    border-radius: 26px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+   
+}
+.gett:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 26px;
+    cursor: pointer;
+    
+}
+.gett2{
+    margin-top: 40%;
+    background-color: #600783;
+    border: #1cc9e7;
+    color: rgb(255, 255, 255);
+    border-radius: 26px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+   
+}
+.gett2:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 26px;
+    cursor: pointer;
+    
+}
+.branco:hover .cifrao{
+    color: rgb(255, 255, 255);
+   
+}
+.chuva{
+    background-image: url("../img/chuva.jpg");
+    background-size: 100% 69%;
+    padding-bottom: 25%;
+    background-repeat: no-repeat;
+}
+.ch1{
+    color: rgb(255, 255, 255);
+    text-align: left ;
+    margin-left: -7%;
+}
+.ch2{
+    color: rgb(255, 255, 255);
+    text-align: left 
+}
+
+.botao111{
+    background-color: #1cc9e7;
+    border: #1cc9e7;
+    color: rgb(255, 255, 255);
+    border-radius: 26px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 15%;
+    margin-left: 13%;
+
+   
+}
+.botao111:hover{
+    color: rgb(255, 255, 255);
+    background-color: #600783;
+    cursor: pointer;
+}
+.aspas,.donec,.perfil{
+    display: flex;
+    flex-direction: row;
+}
+.aspas{
+    color: rgb(3, 3, 230);
+    text-align: center;
+
+}
+.donec1{
+   color: rgb(163, 163, 163);
+   font-weight: 500;
+   line-height: 15px;
+   text-align: center;
+   background-color: rgb(224, 224, 224);
+   margin-top: 8%;
+   padding-top: 5%;
+}
+.perfil{
+    margin-top: 25%;
+
+}
+.sam{
+    background-image: url("../img/mulher2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    padding:10%
+}
+.sam2{
+    background-image: url("../img/homen2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    padding:10%;
+  
+}
+.sam3{
+    background-image: url("../img/homen3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    padding:10%;
 }
