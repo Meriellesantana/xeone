@@ -893,8 +893,6 @@ h3{
     line-height: 50px;
 
 }
-
-
 .gett{
     margin-top: 40%;
     background-color: #1cc9e7;
@@ -964,8 +962,7 @@ h3{
     padding-right: 2%;
     margin-top: 15%;
     margin-left: 13%;
-
-   
+  
 }
 .botao111:hover{
     color: rgb(255, 255, 255);
@@ -975,44 +972,258 @@ h3{
 .aspas,.donec,.perfil{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .aspas{
-    color: rgb(3, 3, 230);
+    z-index: 2000;
+}
+.donec{
+    z-index: 200;
+    margin-top: 5%;
+    position: relative;
+}
+.oo{
+    position: absolute;
+    top: -28%;
+    left: 13.8%;
+    color: rgb(255, 255, 255);
     text-align: center;
+    border-radius: 50%;
+    background-color: #1cc9e7;
+    padding: 2%;
+   
 
 }
+.ooo{
+    position: absolute;
+    top: -28%;
+    left: 47%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 50%;
+    background-color: #600783;
+    cursor: pointer;
+    padding: 2%;
+   }
+.oooo{
+    position: absolute;
+    top: -28%;
+    left: 80%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 50%;
+    background-color: #1cc9e7;
+    padding: 2%;
+ }
 .donec1{
    color: rgb(163, 163, 163);
    font-weight: 500;
-   line-height: 15px;
+   line-height: 25px;
    text-align: center;
-   background-color: rgb(224, 224, 224);
-   margin-top: 8%;
+   background-color: rgb(223, 223, 223);
+   margin-top: -1%;
+   margin-left: 4%;
+   margin-right: 5%;
    padding-top: 5%;
+   padding-left: 2%;
+   padding-right: 2%;
+  padding-bottom: 4%;
+   font-size: 14px;
+ 
 }
-.perfil{
-    margin-top: 25%;
+.donec1:hover{
+    background-color:#1cc9e7;
+    color: rgb(255, 255, 255);
+}
+.donec11{
+    color: rgb(163, 163, 163);
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    background-color: rgb(223, 223, 223);
+    margin-top: -1%;
+    margin-left: 4%;
+    margin-right: 5%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+    font-size: 14px;
+    
+ }
+
+.donec11:hover{
+    background-color:#600783;
+    color: rgb(255, 255, 255);
+}
+.fotinho{
+   position: relative;
 
 }
 .sam{
-    background-image: url("../img/mulher2.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    width: 18%;
     border-radius: 50%;
     padding:10%
 }
 .sam2{
-    background-image: url("../img/homen2.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 31%;
+    width: 18%;
     border-radius: 50%;
     padding:10%;
   
 }
 .sam3{
-    background-image: url("../img/homen3.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    width: 18%;
     border-radius: 50%;
     padding:10%;
+} 
+.nome3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25%;
+}
+.home3{
+    position: absolute;
+    top: 140%;
+    left: 11%;
+}
+.mule2{
+    position: absolute;
+    top: 140%;
+    left: 46%;
+}
+.home7{
+    position: absolute;
+    top: 140%;
+    left: 78%;
+}
+.perf{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.busi{
+    color:#1cc9e7;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 17%;
+}
+.enva{
+  width: 13%;
+    margin-top: 19%;
+    margin-left: 10%;
+    margin-right: -7%;
+}
+.falantes{
+    width: 49%;
+    margin-top: 14%;
+}
+.texto111{
+    margin-top: 14%;
+    background-color:rgb(243, 239, 239);
+    width: 100%;
+}
+.botao0{
+       background-color: #600783;
+    border: #1cc9e7;
+    color: rgb(255, 255, 255);
+    border-radius: 26px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 50%;
+    margin-left: 40%;
+    z-index: 2000;
+}
+.botao0:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e7;
+    border-radius: 26px;
+    cursor: pointer;
+    
+}
+.g10{
+    margin-top: 15%;
+    margin-left: 5%;
+    color: #1cc9e7;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+   
+}
+.g20{
+    margin-left: 5%;
+    color: #000000;
+    font-size: 57px;
+    text-align: left;
+    font-weight: 500;
+}
+.west{
+    margin-left: 1%;
+    margin-bottom: 20%;
+    padding-top: 3%;    
+    color: #696969;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 300;
+    line-height: 24px;
+}
+.dupla7,.dupla8{
+    display: flex;
+    flex-direction: row;
+}
+.dupla7{
+    margin-top: 15%;
+    margin-left: 4%;
+    margin-right: 2%;
+}
+.dupla8{
+  
+    margin-left: 4%;
+    margin-right: 2%;
+}
+.dupla7b{
+    margin-left: 4%;
+    margin-right: 6%;
+}
+.dupla8b{
+    margin-left: 7%;
+    margin-right: 6%;
+}
+.ca{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 16px;
+    
+
+}
+.cb{
+    color:  rgb(185, 185, 185);
+    font-weight: 500;
+    font-size: 14px;
+   
+
+}
+.cc{
+    color: rgb(28, 201, 231);
+    font-weight: 900;
+    font-size: 12px;
+  
+}
+.cc:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
 }
