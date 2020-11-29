@@ -149,7 +149,7 @@ h3{
 
 .note{
     width: 49%;
-    margin-left: 45%;
+    margin-left: 51%;
 }
 .botao{
     position: absolute;
@@ -505,6 +505,7 @@ h3{
     display: flex;
     flex-direction: row;
     position: relative;
+    z-index: 200;
 }
 .abc1{
     position: relative;
@@ -1226,4 +1227,250 @@ h3{
 .cc:hover{
     cursor: pointer;
     color: rgb(0, 0, 0);
+}
+.final{
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 1%;
+}
+
+.rede1{
+   
+    color: rgb(156, 155, 155);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10%;
+    border-radius: 50%;
+    padding: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 3%;
+     
+
+}
+.rede{
+   
+    color: rgb(156, 155, 155);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10%;
+    border-radius: 50%;
+    padding: 2%;
+    margin-left: 3%;
+ 
+}
+.rede:hover, .rede1:hover{
+    background-color: rgb(28, 201, 231);
+    cursor: pointer;
+
+}
+.rede:hover, .rede1:hover .rede2{
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+.made{
+    color: rgb(156, 155, 155);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: -28%;
+}
+.the{
+    color: rgb(156, 155, 155);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  
+}
+
+.the:hover{
+    color: rgb(28, 201, 231);
+    cursor: pointer;
+
+}
+form{
+    margin-top: -27%;
+    margin-left: 58%;
+    margin-bottom: -2%;
+}
+::placeholder{
+ 
+    color:rgb(156, 155, 155);
+    font-size: 14px;
+}
+input[name="msg"]{
+    border: none;
+  
+}
+textarea[id="nome"]{
+    border: none;
+   
+}
+.formulary{
+    display: flex;
+    flex-direction: row;
+}
+.risca{
+    margin-right: 5%;
+    margin-bottom: 4%;
+    padding-bottom: 3%;
+    padding-right: 10%;
+    border-bottom: 1px solid rgb(156, 155, 155);
+}
+.risca:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.botaos{
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #1cc9e7;
+    border: #1cc9e7;
+    color: rgb(255, 255, 255);
+    border-radius: 26px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 38%;
+    padding-right: 38%;
+   
+}
+.botaos:hover{
+    color: rgb(255, 255, 255);
+    background-color: #600783;
+    border-radius: 26px;
+    cursor: pointer;
+    
+}
+.mais{
+    font-size:131px;
+    font-weight: 100;
+    margin-bottom: 0%;
+    margin-top: 10%;
+    
+
+}
+.wood{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0%;
+}
+.here{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0%;
+}
+.efeito{
+    position: absolute;
+    top:33%;
+    left: 9.5%;
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e700;
+    color: #1cc9e700;
+    width: 22%;
+    height: 24%;
+    text-align: center;
+    
+}
+.efeito:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e7b4;
+    z-index: 3000;
+     
+}
+.efeito1{
+    position: absolute;
+    top:33%;
+    left: 41%;
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e700;
+    color: #1cc9e700;
+    width: 22%;
+    height: 24%;
+    text-align: center;
+    
+}
+.efeito1:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e7b4;
+    z-index: 3000;
+     
+}
+.efeito2{
+    position: absolute;
+    top:33%;
+    left: 72%;
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e700;
+    color: #1cc9e700;
+    width: 22%;
+    height: 24%;
+    text-align: center;
+    
+}
+.efeito2:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e7b4;
+    z-index: 3000;
+     
+}
+.efeito3{
+    position: absolute;
+    top: 66%;
+    left: 9.5%;
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e700;
+    color: #1cc9e700;
+    width: 22%;
+    height: 24%;
+    text-align: center;
+    z-index: 3000;
+    
+    
+}
+.efeito3:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e7b4;
+    z-index: 3000;
+     
+}
+.efeito4{
+    position: absolute;
+    top: 66%;
+    left: 41%;
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e700;
+    color: #1cc9e700;
+    width: 22%;
+    height: 24%;
+    text-align: center;
+    z-index: 3000;
+    
+}
+.efeito4:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e7b4;
+    z-index: 3000;
+     
+}
+.efeito5{
+    position: absolute;
+    top: 66%;
+    left: 72%;
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e700;
+    color: #1cc9e700;
+    width: 22%;
+    height: 24%;
+    text-align: center;
+    z-index: 3000;
+    
+}
+.efeito5:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1cc9e7b4;
+    z-index: 3000;
+     
 }
